@@ -11,7 +11,7 @@ try:
     while True:
         end = len(msg)
         location = 0
-        while 16 - end > 0:sudo 
+        while 16 - end > 0:
             lcd.move_right()
             location += 1
             time.sleep(0.5)
